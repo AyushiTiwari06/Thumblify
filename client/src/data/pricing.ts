@@ -3,7 +3,7 @@ import type { IPricing } from "../types";
 export const pricingData: IPricing[] = [
     {
         name: "Basic",
-        price: 29,
+        price: 150,
         period: "month",
        features: [
   "50 AI Thumbnails/mo",
@@ -16,7 +16,7 @@ export const pricingData: IPricing[] = [
     },
     {
         name: "Pro",
-        price: 79,
+        price: 300,
         period: "month",
        features: [
   "Unlimited AI Thumbnails",
@@ -31,7 +31,7 @@ export const pricingData: IPricing[] = [
     },
     {
         name: "Enterprise",
-        price: 199,
+        price: 500,
         period: "month",
        features: [
   "Everything in Pro",

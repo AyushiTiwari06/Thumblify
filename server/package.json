@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon --watch . --ext ts,json --exec tsx server.ts",
     "start": "tsx server.ts",
-    "server": "nodemon --exec tsx server.ts",
     "build": "tsc"
   },
   "keywords": [],
@@ -21,7 +21,7 @@
     "nodemon": "^3.1.14",
     "ts-node": "^10.9.2",
     "tsx": "^4.23.13",
-    "typescript": "^7.0.2"
+    "typescript": "^6.0.3"
   },
   "dependencies": {
     "@google/genai": "^2.25.0",
